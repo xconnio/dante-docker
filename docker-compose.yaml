@@ -1,0 +1,8 @@
+version: "3.10"
+
+services:
+  dante:
+    image: 'xconnio/dante'
+    ports:
+      - '1080:1080'
+    restart: always
